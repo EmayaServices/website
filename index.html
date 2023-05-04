@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="icon" type="image/png" href="/images/emaya-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -15,33 +16,36 @@
 
 			<!-- Header -->
             <section id="header">
-
+                <div class="sticky"> 
+                    <a href="index.html" class="resize"><img src="images/welcome-emaya.png" width = "500" alt="EMAYA's Infocenter" id="emayalogo" /></a> 
+                </div>
                 <!-- Logo -->
                <!--  <div class="welcome"><h1 class="maquina-escribir">WELCOME TO THE<span class="cursor">|</span></h1></div> -->
-                <a href="index.html" class="resize"><img src="images/welcome-emaya.png" width = "500" alt="EMAYA's Infocenter" id="emayalogo" /></a>
-                    
+                
+        <!--banner superior-->        
             </section>
-
-
               <!-- Calendar and Bulletin -->
 				<section id="footer">
 					<div id="banner1">
 						<div class="row">
 							<div class="col-8 col-12-medium">
 								<section class="container1">
-									<header>
+                                   	<header>
 										<h2>UPCOMING EVENTS</h2>
 									</header>
                                    
 									<ul class="dates">
+                                       <!-- <img style="height: 450px;margin-top: -3em;" src="images/Easter%20Newsletter.png">
+                                        
 										<li>
-											<span class="date">Feb <strong>14</strong></span>
-											<h2><a href="#">Valentine's day</a></h2>
+											<span class="date">May <strong>10</strong></span>
+											<h2><a href="#">Happy Mother's Day</a></h2>
 											<p>Have you send your grams?</p>
 										</li>
 										<li>
 											<span class="date">Feb <strong>17</strong></span>
                                             <h2><a href="#">Salary Record</a></h2>
+                                        </li> -->
 									</ul>
 								</section>
 							</div>
@@ -56,22 +60,44 @@
                                         <input type="radio" name="radio-btn" id="img-1" checked />
                                         <li class="slide-container">
                                             <div class="slide">
-                                                <img src="images/carousel/referral.png"/>
+                                                <img src="images/bulletin/referral1.png"/>
                                             </div>
                                             <div class="nav">
-                                                <label for="img-2" class="prev"><i class="fas fa-chevron-circle-left fa-3x"></i></label>
-                                                <label for="img-2" class="next"><i class="fas fa-chevron-circle-right fa-3x"></i></label>
+                                                <label for="img-4" class="prev"><i class="fas fa-chevron-left fa-3x"></i></label>
+                                                <label for="img-2" class="next"><i class="fas fa-chevron-right fa-3x"></i></label>
                                             </div>
                                         </li>
 
                                         <input type="radio" name="radio-btn" id="img-2" />
                                         <li class="slide-container">
                                             <div class="slide">
-                                              <img src="images/carousel/referral2.png"/>
+                                              <img src="images/bulletin/referral2.png"/>
                                             </div>
                                             <div class="nav">
-                                                <label for="img-1" class="prev"><i class="fas fa-chevron-circle-left fa-3x"></i></label>
-                                                <label for="img-1" class="next"><i class="fas fa-chevron-circle-right fa-3x"></i></label>
+                                                <label for="img-1" class="prev"><i class="fas fa-chevron-left fa-3x"></i></label>
+                                                <label for="img-4" class="next"><i class="fas fa-chevron-right fa-3x"></i></label>
+                                            </div>
+                                        </li>
+                                        
+                            <!--     <input type="radio" name="radio-btn" id="img-3" />
+                                        <li class="slide-container">
+                                            <div class="slide">
+                                              <img src="images/bulletin/Constancias.png"/>
+                                            </div>
+                                            <div class="nav">
+                                                <label for="img-2" class="prev"><i class="fas fa-chevron-circle-left fa-3x"></i></label>
+                                                <label for="img-4" class="next"><i class="fas fa-chevron-circle-right fa-3x"></i></label>
+                                            </div>
+                                        </li>-->
+                                        
+                                         <input type="radio" name="radio-btn" id="img-4" />
+                                        <li class="slide-container">
+                                            <div class="slide">
+                                              <img src="images/bulletin/bulletin2.png"/>
+                                            </div>
+                                            <div class="nav">
+                                                <label for="img-2" class="prev"><i class="fas fa-chevron-left fa-3x"></i></label>
+                                                <label for="img-1" class="next"><i class="fas fa-chevron-right fa-3x"></i></label>
                                             </div>
                                         </li>
                                      </ul>
@@ -85,7 +111,7 @@
 
 
 			<!-- Main -->
-				<section id="main">
+				<article id="main">
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
@@ -164,11 +190,9 @@
                                             </div>
                                         </div>
                                     </section>		
-
 							</div>
 							<div class="col-12">
-
-								<!-- Information-->
+								<!--General Information-->
 									<section id="information" style="margin-top: -4%;">
 										<header class="major">
 											<h5>GENERAL INFORMATION</h5>
@@ -180,24 +204,46 @@
                                                 <input class="radio" id="three" name="group" type="radio">
                                                 <input class="radio" id="four" name="group" type="radio">
                                                 <input class="radio" id="five" name="group" type="radio">
+                                                <input class="radio" id="six" name="group" type="radio">
+                                                <input class="radio" id="seven" name="group" type="radio">
                                                 <div class="tabs">
-                                                    <label class="tab" id="one-tab" for="one" style="margin-left: 0;">Submit a ticket</label>
-                                                    <label class="tab" id="two-tab" for="two">Kitchen Etiquette</label>
-                                                    <label class="tab" id="three-tab" for="three">Workstation Etiquette</label>
-                                                    <label class="tab" id="four-tab" for="four">Access Cards</label>
-                                                    <label class="tab" id="five-tab" for="five">Dress Code</label>
+                                                    <label class="tab" id="one-tab" for="one" style="margin-left: 0;margin-top: 10px;">Submit a ticket</label>
+                                                    <label class="tab" id="two-tab" for="two">Workstation Etiquette</label>
+                                                    <label class="tab" id="three-tab" for="three">Access Cards</label>
+                                                    <label class="tab" id="four-tab" for="four">Kitchen Etiquette</label>
+                                                    <label class="tab" id="five-tab" for="five">Coffee Station</label>
+                                                    <label class="tab" id="six-tab" for="six">Games Etiquette</label>
+                                                    <label class="tab" id="seven-tab" for="seven">Dress Code</label>
                                                 </div>
                                             <div class="panels">
                                             <div class="panel" id="one-panel">
                                                 <div class="panel-title">SUBMIT A TICKET</div>
                                                 <ul>
-                                                  <li>To log in you must open Mozilla Firefox, this should automatically redirect you to the ticketing system, otherwise follow step 2.</li>
-                                                  <li>Click on <a href="https://emayaservices.on.spiceworks.com/portal" target="_blank"><span>EMAYA SERVICES</span></a> or copy the acccess link https://emayaservices.on.spiceworks.com/portal </li>
-                                                  <li>Inside the New Portal, you will have to initially enter your Windows credentials (user and password).</li>
+                                                  <li>To log in you can use Mozilla Firefox, this should automatically redirect you to the ticketing system, otherwise follow step 2.</li>
+                                                  <li>Click on <a href="https://emayaservices.on.spiceworks.com/portal" target="_blank"><button>EMAYA SERVICES</button></a> or copy the acccess link https://emayaservices.on.spiceworks.com/portal </li>
+                                                  <li>In the Portal, you will have to initially enter your Windows credentials (user and password).</li>
                                                     <li>Click on "Submit a ticket" button.</li>
                                                 </ul>
                                               </div>
+                                            
                                             <div class="panel" id="two-panel">
+                                                <div class="panel-title">WORKSTATION ETIQUETTE</div>
+                                                <ul>
+                                                  <li>No open beverage/food containers on your desk.</li>
+                                                  <li>Cellphones or electronic devices are not allowed in the Operations area.</li>
+                                                  <li>At the end of your shift power down all devices. (Unless you share workstations)</li>
+                                                  <li>Keep the work area neat. (No clutter)</li>
+                                                </ul>
+                                            </div>
+                                            <div class="panel" id="three-panel">
+                                                <div class="panel-title">ACCCESS CARDS</div>
+                                                <ul>
+                                                  <li>When you complete the mandatory documentation, you will be issued 2 access cards that you need to carry with you all the time.</li>
+                                                  <li>Building Policy mandates that you use your access cards to access the turnstile in the lobby. If you don't have a card yet, you'll have to leave your DUI.</li>
+                                                  <li>Never leave doors open and unattended.</li>
+                                                </ul>
+                                            </div>
+                                                <div class="panel" id="four-panel">
                                             <div class="panel-title">KITCHEN ETIQUETTE</div>
                                                 <ul>
                                                   <li>Tidy up appliances/Clean up after yourself.</li>
@@ -207,36 +253,44 @@
                                                   <li>Make sure you close your toppers properly.</li>
                                                   <li>Don't let food rot in the fridge.</li>
                                                 </ul>
-                                            </div>
-                                            <div class="panel" id="three-panel">
-                                                <div class="panel-title">WORKSTATION ETIQUETTE</div>
-                                                <ul>
-                                                  <li>No open beverage/food containers on your desk.</li>
-                                                  <li>Cellphones or electronic devices are not allowed in the Operations area.</li>
-                                                  <li>BAt the end of your shift power down all devices. (Unless you share workstations)</li>
-                                                  <li>Keep the work area neat. (No clutter)</li>
-                                                </ul>
-                                            </div>
-                                            <div class="panel" id="four-panel">
-                                                <div class="panel-title">ACCCESS CARDS</div>
-                                                <ul>
-                                                  <li>When you complete the mandatory documentation, you will be issued 2 access cards that you need to carry with you all the time.</li>
-                                                  <li>Building Policy mandates that you use your access cards to access the turnstile in the lobby. If you don't have a card yet, you'll have to leave your DUI.</li>
-                                                  <li>Never leave doors open and unattended.</li>
-                                                </ul>
-                                            </div>
+                                            </div>                                            
                                             <div class="panel" id="five-panel">
-                                                <div class="panel-title">DRESS CODE</div>
+                                                <div class="panel-title">our coffee station</div>
+                                                <div>Our Guidelines for uses</div>
+                                                <ul>
+                                                  <li>Find our coffee stations in our operation floors. They are available whenever the area's supervisor is present.</li>
+                                                  <li>This is a splash-free zone.  Remember to prepare your drink; first mix the dry ingredients, then fill your cups at the water cooler after.</li>
+                                                  <li>No open-face containers!  Make sure that your mugs/cups are compliant with EMAYA safety guidelines.</li>
+                                                    <li>Be mindful of spills.  A hand vacuum cleaner will always be available so you can pick up any spilled powders. </li>
+                                                  <li>Special treats will be available at least once a week or on special occasions.</li>
+                                                  <li>Spoons are available for measuring only.  Please use drink mixers.</li>
+                                                    <li>No delivery service! You are only allowed to prepare your own drinks.  One mug and/or treat per person.</li>
+                                                    <li>Maximum Capacity is 3 people at a time.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="panel" id="six-panel">
+                                                <div class="panel-title">Games Etiquette</div>
+                                                <div>It's time to play!</div>
+                                                <p>We have board games for you to have fun during your free time. Please take into account some rules:</p>
+                                                <ul>
+                                                  <li>The use of the games is exclusive to EMAYA's facilities (break rooms).</li>
+                                                  <li>Games are not allowed in the operations area.</li>
+                                                <li>To request a game, you must fill out the form at the front desk. The person in charge must ensure the delivery of the set with the complete pieces.</li>
+                                                </ul>
+                                            </div>
+                                                <div class="panel" id="seven-panel">
+                                                <div class="panel-title">dress code</div>
                                                 <ul>
                                                   <li>The dress code we follow on week from Monday to Thursday we usually come to office with Business Casual.</li>
                                                   <li>On Fridays, we wear Dressy Casual, where jeans, t-shirts, and tennis shoes are okay.</li>
                                                 </ul>
-                                              </div>
                                             </div>
                                         </div>
                                     </div>
-								</section>
-                                <section>
+                                </div>
+				            </section>
+                            <section>
+                            <!--BENEFITS-->
                                     <header class="major">
 										<h5>BENEFITS</h5>
 									</header>
@@ -272,7 +326,7 @@
                                                         </div>
                                                         <div class="profile__info">
                                                             <span class="profile__info-display">EL BAJÓN</span>
-                                                            <span>10% TO 5% DISCOUNT</span>
+                                                            <span>UP TO 10% DISCOUNT</span>
                                                         </div>
                                                     </div>
                                                     <div class="profile__data">
@@ -323,13 +377,13 @@
                                                         </div>
                                                         <div class="profile__info">
                                                             <span class="profile__info-display">FARMACIA SAN NICOLÁS</span>
-                                                            <span>25% DISCOUNT</span>
+                                                            <span>UP TO 25% DISCOUNT</span>
                                                         </div>
                                                     </div>
                                                     <div class="profile__data">
                                                         <span>Up to 25% Discount on Portfolio Medicine</span>
                                                         <ul>
-                                                            <li>Discount applies on cash payments, cheques, credit cards, and debit cards.</li>
+                                                            <li>Discount applies on cash payments, credit cards, and debit cards.</li>
                                                             <li>Does not apply to controlled drugs, oncology, and formulas.</li>
                                                             <li>Discount varies from the pharmaceutic house that belonged to the product.</li>
                                                         </ul>
@@ -387,12 +441,12 @@
                                                 <div class="profile" onclick="expand(this)" style="width: 75%;">
                                                     <div class="profile__banner" style="background-color:#a7acaf;"></div>
                                                     <div>
-                                                        <div class="profile__pic">
+                                                        <div class="profile__pic" style="top: 5px;">
                                                             <img src="images/benefit/benefit-7.png" title="UNIVERSIDAD PEDAGÓGICA">
                                                         </div>
                                                         <div class="profile__info">
                                                             <span class="profile__info-display">UNIVERSIDAD PEDAGÓGICA</span>
-                                                            <span>20% TO 10% DISCOUNT</span>
+                                                            <span>UP TO 20% DISCOUNT</span>
                                                         </div>
                                                     </div>
                                                     <div class="profile__data">
@@ -403,7 +457,7 @@
                                                         <span>Discount terms</span>
                                                         <ul>
                                                             <li>All discounts apply for workers at EMAYA and close family members (husband, wife, father, mother, and children).</li>
-                                                            <li>First discount available	for Nuevo Ingreso or Ingreso por Equivalencias. econd discount is available for inscriptions of Nuevo Ingreso, Ingreso por Equivalencias, and Actual Students. Third discount available for Nuevo Ingreso.</li>
+                                                            <li>First discount available	for Nuevo Ingreso or Ingreso por Equivalencias. Second discount is available for inscriptions of Nuevo Ingreso, Ingreso por Equivalencias, and Actual Students. Third discount available for Nuevo Ingreso.</li>
                                                             <li>The EMAYA workers should bring their worker badges when they start the admission process.</li>
                                                             <li>In the case of family members, must be brought the Partida de Nacimiento or DUI, accompanied by Constancia Laboral or worker badges.</li>
                                                         </ul>
@@ -411,49 +465,37 @@
                                                 </div>
                                     </main>
                           <section>
-                                    <header class="major">
-										<h5>GALLERY</h5>
-									</header>
-                              
-                              
-                                    <div class="photoshow">
-                                        <div class="gallery">
-                                            <h2>Birthdays</h2>
-                                            <div class="CSSgal">
-                                              <!-- Don't wrap targets in parent -->
-                                                <s id="s1"></s> 
-                                                <s id="s2"></s>
-                                                <s id="s3"></s>
-                                                <s id="s4"></s>
-                                                <s id="s5"></s>
-
-                                                <div class="slider">
-                                                    <div>
-                                                        <img src="images/events/birhtdays/IMG_2567.JPG"/>    
-                                                    </div>
-                                                    <div>
-                                                       <img src="images/events/birhtdays/IMG_2599.JPG"/>
-                                                    </div>
-                                                    <div>
-                                                        <img src="images/events/birhtdays/IMG_2606.JPG"/>
-                                                    </div>
-                                                    <div>
-                                                        <img src="images/events/birhtdays/IMG_3102.JPG"/>
-                                                    </div>
-                                                    <div>
-                                                        <img src="images/events/birhtdays/IMG_3159.JPG"/>
-                                                    </div>
+                        <!--GALLERY-->
+                            <header class="major">
+								<h5>GALLERY</h5>
+				            </header>
+                            <div class="photoshow">
+                                <div class="gallery">
+                                    <h2>Birthdays</h2>
+                                        <div class="CSSgal">
+                                            <!-- Don't wrap targets in parent -->
+                                          <s id="s2"></s>
+                                            <s id="s3"></s>
+                                            <s id="s4"></s>
+                                            <s id="s5"></s>
+                                            <div class="slider">
+                                                <div>
+                                                    <img src="images/events/birhtdays/IMG_2567.png"/>    
                                                 </div>
-
-                                         <!--     <div class="prevNext">
-                                                <div><a href="#s5"></a><a href="#s2"></a></div>
-                                                <div><a href="#s1"></a><a href="#s3"></a></div>
-                                                <div><a href="#s2"></a><a href="#s4"></a></div>
-                                                <div><a href="#s3"></a><a href="#s5"></a></div>
-                                                <div><a href="#s4"></a><a href="#s1"></a></div>
-                                              </div>  -->
-
-                                              <div class="bullets">
+                                                <div>
+                                                   <img src="images/events/birhtdays/IMG_2599.png"/>
+                                                </div>
+                                                <div>
+                                                    <img src="images/events/birhtdays/IMG_2606.png"/>
+                                                </div>
+                                                <div>
+                                                    <img src="images/events/birhtdays/IMG_3102.png"/>
+                                                </div>
+                                                <div>
+                                                    <img src="images/events/birhtdays/IMG_3159.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="bullets">
                                                 <a href="#s1">1</a>
                                                 <a href="#s2">2</a>
                                                 <a href="#s3">3</a>
@@ -474,30 +516,21 @@
 
                                                 <div class="slider">
                                                     <div>
-                                                        <img src="images/events/event1/IMG_2426.JPG"/>    
+                                                        <img src="images/events/event1/IMG_2426.png"/>    
                                                     </div>
                                                     <div>
-                                                       <img src="images/events/event1/IMG_2432.JPG"/>
+                                                       <img src="images/events/event1/IMG_2432.png"/>
                                                     </div>
                                                     <div>
-                                                        <img src="images/events/event1/IMG_2433.JPG"/>
+                                                        <img src="images/events/event1/IMG_2433.png"/>
                                                     </div>
                                                     <div>
-                                                        <img src="images/events/event1/IMG_2439.JPG"/>
+                                                        <img src="images/events/event1/IMG_2439.png"/>
                                                     </div>
                                                     <div>
-                                                        <img src="images/events/event1/IMG_2446.JPG"/>
+                                                        <img src="images/events/event1/IMG_2446.png"/>
                                                     </div>
                                                 </div>
-
-                                        <!--      <div class="prevNext">
-                                                <div><a href="#s10"></a><a href="#s7"></a></div>
-                                                <div><a href="#s6"></a><a href="#s8"></a></div>
-                                                <div><a href="#s7"></a><a href="#s9"></a></div>
-                                                <div><a href="#s8"></a><a href="#s10"></a></div>
-                                                <div><a href="#s9"></a><a href="#s6"></a></div>
-                                              </div> -->
-
                                               <div class="bullets">
                                                 <a href="#s6">1</a>
                                                 <a href="#s7">2</a>
@@ -519,30 +552,21 @@
 
                                                 <div class="slider">
                                                     <div>
-                                                        <img src="images/events/event2/IMG_1980.JPG"/>    
+                                                        <img src="images/events/event2/IMG_1980.png"/>    
                                                     </div>
                                                     <div>
-                                                       <img src="images/events/event2/IMG_2075.JPG"/>
+                                                       <img src="images/events/event2/IMG_2075.png"/>
                                                     </div>
                                                     <div>
-                                                        <img src="images/events/event2/IMG_2159.JPG"/>
+                                                        <img src="images/events/event2/IMG_2159.png"/>
                                                     </div>
                                                     <div>
-                                                        <img src="images/events/event2/IMG_2177.JPG"/>
+                                                        <img src="images/events/event2/IMG_2177.png"/>
                                                     </div>
                                                     <div>
-                                                        <img src="images/events/event2/IMG_2185.JPG"/>
+                                                        <img src="images/events/event2/IMG_2185.png"/>
                                                     </div>
                                                 </div>
-
-                                       <!--       <div class="prevNext">
-                                                <div><a href="#s15"></a><a href="#s12"></a></div>
-                                                <div><a href="#s11"></a><a href="#s13"></a></div>
-                                                <div><a href="#s12"></a><a href="#s14"></a></div>
-                                                <div><a href="#s13"></a><a href="#s15"></a></div>
-                                                <div><a href="#s14"></a><a href="#s11"></a></div>
-                                              </div>   -->
-
                                               <div class="bullets">
                                                 <a href="#s11">1</a>
                                                 <a href="#s12">2</a>
@@ -552,13 +576,15 @@
                                               </div>                                       
                                             </div>                                        
                                         </div>
-                                    </div>
+                                    </div>  -->
                                 </section>
                             </section>
                             </div>
                         </div>
-				    </div>
-				</section>
+                    </div>
+                    
+                </article>
+                    
 
 			<!-- Footer -->
 				<section id="footer">
@@ -575,9 +601,12 @@
                             </ul>                                           
                         </div>
                     </div>
-				</section>
+				</section>                    
             </section>
-		</div>
+        </div>
+        <a href="#" class="to-top" id="Top">
+            <i id="icon" class="fas fa-arrow-up"></i>
+        </a>
 
 		<!-- Scripts -->
             <script src="assets/js/action.js"></script>
