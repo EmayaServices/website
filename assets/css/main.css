@@ -2496,7 +2496,7 @@ input, select, textarea {
 			top: 1em;
 			height: 3em;
 			line-height: 3em;
-			right: 3em;
+			right: 2em;
 			display: flex;
 			align-items: center;
 		}
